@@ -1,0 +1,15 @@
+{
+	"printWidth": 80,
+	"useTabs": true,
+	"singleQuote": true,
+	"trailingComma": "all",
+	"arrowParens": "avoid",
+	"overrides": [
+		{
+			"files": "package.json",
+			"options": {
+				"useTabs": false
+			}
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "utils",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index",
+  "types": "dist/index",
+  "dependencies": {},
+  "scripts": {
+    "start": "tsc -w",
+    "build": "tsc"
+  },
+  "eslintConfig": {}
+}
