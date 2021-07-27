@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { shout, up } from 'utils';
-import { Button, Text } from 'ds';
+import { shout, up } from '@example/utils';
+import { Button, Text } from '@example/ds';
 
 function App() {
 	shout(up('beep there though, for real??'));
@@ -20,7 +20,7 @@ function App() {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					Learn React
+					Learn React then
 				</a>
 
 				<Button>hello there</Button>

@@ -2,8 +2,7 @@
   "name": "@example/ds",
   "version": "0.1.0",
   "private": true,
-  "main": "dist/index",
-  "types": "dist/index",
+  "main": "./src/index.ts",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
