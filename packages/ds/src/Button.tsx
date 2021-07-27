@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 
 const Button: FC<{}> = ({ children }) => {
 	return <button className="foo">{children} ???? </button>;

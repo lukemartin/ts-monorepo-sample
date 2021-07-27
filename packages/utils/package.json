@@ -4,9 +4,6 @@
   "private": true,
   "main": "./src/index.ts",
   "dependencies": {},
-  "scripts": {
-    "start": "tsc -w",
-    "build": "tsc"
-  },
+  "scripts": {},
   "eslintConfig": {}
 }

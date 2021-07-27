@@ -7,9 +7,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "scripts": {
-    "start": "tsc -w",
-    "build": "tsc"
-  },
+  "scripts": {},
   "eslintConfig": {}
 }
