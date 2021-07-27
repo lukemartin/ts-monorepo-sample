@@ -23,7 +23,7 @@ function App() {
 					Learn React
 				</a>
 
-				<Button>hello</Button>
+				<Button>hello there</Button>
 
 				<Text isBeep>Hello</Text>
 			</header>
