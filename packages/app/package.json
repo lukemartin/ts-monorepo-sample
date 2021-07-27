@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "@example/app",
   "version": "0.1.0",
   "private": true,
   "main": "dist/index",
@@ -17,8 +17,8 @@
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1",
-    "utils": "^0.1.0",
-    "ds": "^0.1.0"
+    "@example/utils": "^0.1.0",
+    "@example/ds": "^0.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
