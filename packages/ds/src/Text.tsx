@@ -5,7 +5,11 @@ type Props = {
 };
 
 const Text: FC<Props> = ({ isBeep, children }) => {
-	return isBeep ? <p>{children}</p> : <span>{children}</span>;
+	return isBeep ? (
+		<p style={{ color: 'pink' }}>{children}</p>
+	) : (
+		<span>{children}</span>
+	);
 };
 
 export { Text };
