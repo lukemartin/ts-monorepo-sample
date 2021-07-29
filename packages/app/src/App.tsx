@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { shout, up } from '@example/utils';
 import { Button, Text } from '@example/ds';
+import { Box } from 'components/Box';
 
 function App() {
 	shout(up('beep there though, for real??'));
@@ -9,22 +10,24 @@ function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
-				<p>
-					Edit <code>src/App.tsx</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React then asdad
-				</a>
+				<Box>
+					<img src={logo} className="App-logo" alt="logo" />
+					<p>
+						Edit <code>src/App.tsx</code> and save to reload.
+					</p>
+					<a
+						className="App-link"
+						href="https://reactjs.org"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						Learn React then asdad
+					</a>
 
-				<Button>hello there</Button>
+					<Button>hello there</Button>
 
-				<Text isBeep>Hello</Text>
+					<Text isBeep>Hello</Text>
+				</Box>
 			</header>
 		</div>
 	);
